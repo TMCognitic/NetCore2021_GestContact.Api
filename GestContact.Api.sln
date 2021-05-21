@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestContact.Api", "GestContact.Api\GestContact.Api.csproj", "{4E198ABC-3ED4-424C-9596-E87B5CE3576B}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "GestContact.Dataabase", "GestContact.Dataabase\GestContact.Dataabase.sqlproj", "{49B84159-2ADE-4D3F-8AC5-46CDD879B01A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{8BB8879F-3A9E-42CB-B140-1D73EC53FE1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{7274B70E-0767-46F3-BE41-883B98E1FE8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{8E156F8B-E8C7-4745-874A-2E211A949702}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cognitic.Tools.Connections.Database", "Cognitic.Tools.Connections.Database\Cognitic.Tools.Connections.Database.csproj", "{221E2E07-F070-4CCE-81CD-B19974D6F69F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E198ABC-3ED4-424C-9596-E87B5CE3576B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E198ABC-3ED4-424C-9596-E87B5CE3576B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E198ABC-3ED4-424C-9596-E87B5CE3576B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E198ABC-3ED4-424C-9596-E87B5CE3576B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49B84159-2ADE-4D3F-8AC5-46CDD879B01A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49B84159-2ADE-4D3F-8AC5-46CDD879B01A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49B84159-2ADE-4D3F-8AC5-46CDD879B01A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{49B84159-2ADE-4D3F-8AC5-46CDD879B01A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49B84159-2ADE-4D3F-8AC5-46CDD879B01A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49B84159-2ADE-4D3F-8AC5-46CDD879B01A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{221E2E07-F070-4CCE-81CD-B19974D6F69F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{221E2E07-F070-4CCE-81CD-B19974D6F69F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{221E2E07-F070-4CCE-81CD-B19974D6F69F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{221E2E07-F070-4CCE-81CD-B19974D6F69F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4E198ABC-3ED4-424C-9596-E87B5CE3576B} = {7274B70E-0767-46F3-BE41-883B98E1FE8E}
+		{49B84159-2ADE-4D3F-8AC5-46CDD879B01A} = {8BB8879F-3A9E-42CB-B140-1D73EC53FE1A}
+		{221E2E07-F070-4CCE-81CD-B19974D6F69F} = {8E156F8B-E8C7-4745-874A-2E211A949702}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10A92F7F-47B8-411C-B4D5-CAE0F9671874}
+	EndGlobalSection
+EndGlobal
